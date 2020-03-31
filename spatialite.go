@@ -17,6 +17,7 @@ var LibNames = []entrypoint{
 	{"mod_spatialite.dylib", "sqlite3_modspatialite_init"},
 	{"libspatialite.so", "sqlite3_modspatialite_init"},
 	{"libspatialite.so.5", "spatialite_init_ex"},
+        {"libspatialite.so.7", "spatialite_init_ex"},
 	{"libspatialite.so", "spatialite_init_ex"},
 }
 
